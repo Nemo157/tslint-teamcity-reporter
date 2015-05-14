@@ -26,19 +26,18 @@
   },
   "homepage": "https://github.com/ThaNarie/tslint-teamcity-reporter",
   "peerDependencies": {
-    "tslint": "~0.4.0"
+    "tslint": "^2.0.1"
   },
   "devDependencies": {
-    "grunt-cli": "0.1.9",
+    "grunt-cli": "0.1.13",
     "grunt": "~0.4.1",
-    "grunt-tslint": "~0.4.0",
-    "grunt-contrib-jshint": "0.6.4",
-    "tslint-teamcity-reporter": "0.1.4",
-    "grunt-run-grunt": "~0.1.0",
-    "grunt-mocha-test": "~0.7.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-continue": "0.0.1",
-    "chai": "~1.8.1",
+    "grunt-tslint": "^2.0.0",
+    "grunt-contrib-jshint": "0.11.2",
+    "grunt-run-grunt": "^0.1.0",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-continue": "0.1.0",
+    "chai": "^2.3.0",
     "mocha-unfunk-reporter": "~0.4.0"
   }
 }

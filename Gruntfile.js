@@ -61,7 +61,7 @@ module.exports = function (grunt) {
 		}
 	});
 	grunt.registerTask('default', ['test']);
-	grunt.registerTask('test', ['clean', 'jshint', 'run_grunt:test', 'mochaTest:test', 'continueOn', 'tslint:demo', 'continueOff']);
+	grunt.registerTask('test', ['clean', 'jshint', 'run_grunt:test', 'mochaTest:test', 'continue:on', 'tslint:demo', 'continue:off']);
 	grunt.registerTask('dev', ['clean', 'jshint', 'tslint:demo']);
 
 };
