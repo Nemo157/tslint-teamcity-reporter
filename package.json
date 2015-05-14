@@ -25,6 +25,9 @@
     "url": "https://github.com/ThaNarie/tslint-teamcity-reporter/issues"
   },
   "homepage": "https://github.com/ThaNarie/tslint-teamcity-reporter",
+  "peerDependencies": {
+    "tslint": "~0.4.0"
+  },
   "devDependencies": {
     "grunt-cli": "0.1.9",
     "grunt": "~0.4.1",
